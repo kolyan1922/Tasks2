@@ -1,8 +1,8 @@
 # Практическая работа №3
 # Исследование сверточной нейронной сети для классификации полноцветных изображений из БД CIFAR-10
 # Студент: Каширский Н.Е. Ум-242
-# Ссылка на репозиторий - 
-# Ссылка на google colab - 
+# Ссылка на репозиторий - https://github.com/kolyan1922/Tasks2/blob/main/my-code/NN_Laba3_Kashirskiy.py
+# Ссылка на google colab - https://colab.research.google.com/drive/1O8SBm4kEl4rmKbY_TZrtnVy9IXLfcjFZ?usp=sharing
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
@@ -162,3 +162,4 @@ print(f"{'Оптимизатор':20s} | {'Точность':10s} | {'Время
 print("-"*50)
 for name, (acc, dur) in results.items():
     print(f"{name:20s} | {acc:.4f}     | {dur:8.1f}")
+
