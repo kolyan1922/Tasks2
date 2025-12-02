@@ -1,4 +1,9 @@
-# https://colab.research.google.com/drive/1QiT8V0vp6BQtbqjLn-oe58PA99MDDve1?usp=sharing
+# Практическая работа №4
+# Исследование рекуррентной нейронной сети для анализа тональности текстовых отзывов из БД IMDB
+# Студент: Каширский Н.Е. Ум-242
+# Ссылка на репозиторий - https://github.com/kolyan1922/Tasks2
+# Ссылка на google colab - https://colab.research.google.com/drive/1QiT8V0vp6BQtbqjLn-oe58PA99MDDve1?usp=sharing
+
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -229,4 +234,5 @@ RMSProp lr=0.0001 → acc=85.90%
 SGD_Nesterov lr=0.01 → acc=58.50%
 SGD_Nesterov lr=0.001 → acc=50.45%
 SGD_Nesterov lr=0.0001 → acc=50.10%
+
 
